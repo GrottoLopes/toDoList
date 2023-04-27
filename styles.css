@@ -1,0 +1,595 @@
+/*************** GERAIS *********************/
+h1{
+    margin: 0;
+}
+body{
+    font-family: Roboto Mono;
+    margin:0;
+}
+footer{
+    text-align: center;
+    background-color: #000000;
+    margin-top: 0;
+    padding: 0.9vh 0.3vh 0.3vh 0.3vh;
+    font-family: Roboto Mono;
+}
+
+
+/*************** FOOTER *********************/
+.name-footer{
+    margin: 0;
+}
+.university-footer{
+    margin: 1vh 0 1vh 0;
+}
+.email-footer{
+    margin: 1vh 0;
+}
+.a-footer{
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    height: 9.9vh;
+}
+
+/*************** LOGIN **********************/
+    
+#container-login{
+    background-color: #0595BC;
+    width: 100vw;
+    height: 88.9vh;
+    text-align: center;
+}
+
+#container-form{
+    position: relative;
+    margin: auto;
+    top: 10vh;
+    width: 50vw;
+    height: 60vh;
+    background-color: #d9ad26;
+    box-shadow: 0 0 20px 0 rgba(6, 0, 95, 0.5);
+    border-radius: 2em;
+}
+.h1-login{
+    position: absolute;
+    margin: auto;
+    top: 3vh;
+    width: 50vw;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.a-login{
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-login{
+    position: absolute;
+    width: 30vw;
+    height: 26vh;
+    top: 18vh;
+    left: 10vw;
+    right: 10vw;
+    border-radius: 1em;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+    background-color: #0595BC;    
+}
+.input-login{
+    position: relative;
+    margin: auto;
+    top: 3vh;
+}
+
+#login{
+    margin: 1vh;
+    width: 25vw;
+    height: 3vh;
+    border-radius: 1em;
+    text-align: center;
+    opacity: 80%;
+}
+
+#senha{
+    margin: 1vh;
+    width: 25vw;
+    height: 3vh;
+    border-radius: 1em;
+    text-align: center;
+    opacity: 80%;
+}
+
+.submit-login{
+    position: relative;
+    margin: auto;
+    top: 5vh;
+    height: 4vh;
+}
+.sub-login{
+    color: #fff;
+    font-size: 0.9vw;
+    background-color: #005B60;
+    height: 100%;
+    width: 12.5vw;
+    border-radius: 1em;
+    border: black;
+}
+.sub-login:hover{
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: #25f130;
+    height: 110%;
+    width: 13.5vw;
+    border-radius: 1em;
+    border: black;
+}
+
+
+.create{
+    position: absolute;
+    width: 50vw;
+    top: 50vh;
+    margin: auto;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.return{
+    position: relative;
+    top: 40vh;
+    color: #a52222;
+    font-weight: 800;
+}
+
+/************************** CREATE ACCOUNT ************************/
+#container-create{
+    background-color: #0595BC;
+    width: 100vw;
+    height: 89vh;
+    text-align: center;
+}
+
+.form-create{
+    position: absolute;
+    width: 30vw;
+    height: 32vh;
+    top: 15vh;
+    left: 10vw;
+    right: 10vw;
+    border-radius: 1em;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+    background-color: #0595BC;    
+}
+
+.h1-create{
+    position: absolute;
+    margin: auto;
+    top: 3vh;
+    width: 50vw;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.input-create{
+    position: relative;
+    margin: auto;
+    top: 2vh;
+}
+
+#create{
+    margin: 1vh;
+    width: 25vw;
+    height: 3vh;
+    border-radius: 1em;
+    text-align: center;
+    opacity: 80%;
+}
+
+.submit-create{
+    position: relative;
+    margin: auto;
+    top: 8vh;
+    height: 4vh;
+}
+
+.sub-create{
+    color: #fff;
+    font-size: 0.9vw;
+    background-color: #005B60;
+    height: 100%;
+    width: 12.5vw;
+    border-radius: 1em;
+    border: black;
+}
+.sub-create:hover{
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: #25f130;
+    height: 110%;
+    width: 13.5vw;
+    border-radius: 1em;
+    border: black;
+}
+
+.btmvoltar{
+    left: 2vw;
+    position: absolute;
+    width: 1vw;
+    height: 2vh;
+}
+
+.return-create{
+    position: absolute;
+    top: 50vh;
+}
+
+/*********************** FORGOT ACCOUNT **********************/
+
+#container-forgot{
+    background-color: #0595BC;
+    width: 100vw;
+    height: 89.4vh;
+    text-align: center;
+}
+
+.form-forgot{
+    position: absolute;
+    width: 30vw;
+    height: 26vh;
+    top: 18vh;
+    left: 10vw;
+    right: 10vw;
+    border-radius: 1em;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+    background-color: #0595BC;    
+}
+
+.h1-forgot{
+    position: absolute;
+    margin: auto;
+    top: 3vh;
+    width: 50vw;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.input-forgot{
+    position: relative;
+    margin: auto;
+    top: 2vh;
+}
+
+#forgot{
+    margin: 1vh;
+    width: 25vw;
+    height: 3vh;
+    border-radius: 1em;
+    text-align: center;
+    opacity: 80%;
+}
+
+.submit-forgot{
+    position: relative;
+    margin: auto;
+    top: 8vh;
+    height: 4vh;
+}
+
+.sub-forgot{
+    color: #fff;
+    font-size: 0.9vw;
+    background-color: #005B60;
+    height: 100%;
+    width: 12.5vw;
+    border-radius: 1em;
+    border: black;
+}
+.sub-forgot:hover{
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: #25f130;
+    height: 110%;
+    width: 13.5vw;
+    border-radius: 1em;
+    border: black;
+}
+
+.btmvoltar{
+    left: 2vw;
+    position: absolute;
+    width: 1vw;
+    height: 2vh;
+}
+
+
+/*************************** PRINCIPAL *******************/
+
+#container-principal{
+    background-color: #0595BC;
+    width: 100vw;
+    height: 89vh;
+    text-align: center;
+}
+
+.menu-principal{
+    position: relative;
+    float: right;
+    height: 3vh;
+    width: 100vw;
+    top: 4vh;
+    background-color: #d9ad26;
+    font-size: 1.3vw;
+    text-align: end;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+    font-family: Redressed;
+}
+
+.link{
+    color: #000000;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+h3{
+    position: absolute;
+    margin: 0;
+    padding: 1vh;
+    top: 1vh;
+    color: #fff;
+    font-family: Redressed;
+    font-size: 3vh;
+}
+
+.sitename{
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 2vh;
+}
+.sitename h2{
+    margin: 0;
+    font-size: 10vh;
+    font-family: Redressed;
+}
+
+
+#exibicao{
+    position: absolute;
+    width: 60vw;
+    height: 45vh;
+    top: 32vh;
+    left: 20vw;
+    text-align: center;
+
+}
+
+.tabela-exibicao{
+    padding: 2vh;
+    width: 60vw;
+}
+
+.task{
+    padding: 1vh;
+    position: relative;
+    text-align: initial;
+    height: 5vh;
+    width: 45vw;
+    display: inline-block;
+    font-size: 2vh;
+    font-family: Redressed;
+}
+
+.date{
+    padding: 1vh;
+    position: relative;
+    text-align: center;
+    border-radius: 1vh;
+    height: 2vh;
+    width: 7vw;
+    display: inline-block;
+    top: 0.5vh;
+    font-size: 1.5vh;
+    font-family: Redressed;
+}
+
+.delete{
+    padding: 1vh;
+    top: 1vh;
+    left: 1vw;
+    position: relative;
+    text-align: center;
+    height: 1vh;
+    width: 1vw;
+    display: inline-block;
+    background-color: #a52222;
+    border-radius: 30vw;
+}
+
+.line{
+    position: relative;
+    margin-top: 1vw;
+    background-color: #fff;
+    border-radius: 1vw;
+    height: 9vh;
+    padding: 1vh;
+    box-shadow:  0 0 20px 0 rgba(0,0,0,1);
+}
+
+.tabela-exibicao{
+    position: absolute;
+
+}
+
+#container-forms{
+    position: relative;
+    margin: auto;
+    top: 8vh;
+    width: 50vw;
+    height: 6vh;
+    border-radius: 2em;
+    text-align: center;
+}
+
+#container-forms form{
+    position: relative;
+    margin: auto;
+    top: 0;
+    width: 50vw;
+    height: 6vh;
+    text-align: center;
+}
+
+#input-tarefa{
+    display: inline-block;
+    width: 35vw;
+    height: 5vh;
+    margin-bottom: 1vh;
+    position: relative;
+    top: -2.8vh;
+    border-radius: 1vh;
+    opacity: 75%;
+    padding-left: 1vw;
+}
+
+#input-data{
+    display: inline-block;
+    position: relative;
+    top: -2.8vh;
+    width: 8vw;
+    height: 3vh;
+    opacity: 75%;
+}
+
+.sub-tarefa{
+    position: relative;
+    top: -3vh;
+    width: 13vw;
+    padding: 0;
+    height: 5.5vh;
+    border-radius: 1vw;
+    text-align: center;
+    background-color: #0517bc;
+    color: #d9ad26;
+    font-size: 1.7vh;
+}
+
+
+/************************* ALTERAR ****************************/
+
+#container-perfil{
+    background-color: #0595BC;
+    width: 100vw;
+    height: 88.9vh;
+    text-align: center;
+}
+
+#container-form-atualizar{
+    position: relative;
+    margin: auto;
+    top: 13vh;
+    width: 50vw;
+    height: 56vh;
+    background-color: #d9ad26;
+    box-shadow: 0 0 20px 0 rgba(6, 0, 95, 0.5);
+    border-radius: 2em;
+}
+.h1-perfil{
+    position: absolute;
+    margin: auto;
+    top: 3vh;
+    width: 50vw;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.a-perfil{
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-perfil{
+    position: absolute;
+    width: 30vw;
+    height: 26vh;
+    top: 15vh;
+    left: 10vw;
+    right: 10vw;
+    border-radius: 1em;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+    background-color: #0595BC;    
+}
+.input-perfil{
+    position: relative;
+    margin: auto;
+    top: 3vh;
+}
+
+#atual{
+    margin: 1vh;
+    width: 25vw;
+    height: 3vh;
+    border-radius: 1em;
+    text-align: center;
+    opacity: 80%;
+}
+
+#novasenha{
+    margin: 1vh;
+    width: 25vw;
+    height: 3vh;
+    border-radius: 1em;
+    text-align: center;
+    opacity: 80%;
+}
+
+#confirmarsenha{
+    margin: 1vh;
+    width: 25vw;
+    height: 3vh;
+    border-radius: 1em;
+    text-align: center;
+    opacity: 80%;
+}
+
+.submit-perfil{
+    position: relative;
+    margin: auto;
+    top: 14vh;
+    height: 4vh;
+}
+.sub-perfil{
+    color: #fff;
+    font-size: 1.9vw;
+    background-color: #005B60;
+    height: 6vh;
+    width: 20vw;
+    border-radius: 1em;
+    border: black;
+}
+.sub-perfil:hover{
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: #25f130;
+    height: 110%;
+    width: 13.5vw;
+    border-radius: 1em;
+    border: black;
+}
+
+.retorno{
+    position: relative;
+    top: 33vh;
+    color: #a52222;
+    font-weight: 800;
+}
